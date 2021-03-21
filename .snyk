@@ -1,0 +1,127 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - karma > body-parser > debug:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > connect > debug:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > connect > finalhandler > debug:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > github > follow-redirects > debug:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > github > https-proxy-agent > debug:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2021-03-21T05:00:08.551Z'
+    - onchange > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2021-03-21T05:00:08.551Z'
+  'npm:extend:20180424':
+    - karma > dom-serialize > extend:
+        patched: '2021-03-21T05:00:08.551Z'
+    - commitizen > inquirer > external-editor > extend:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > github > https-proxy-agent > extend:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > extend:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/last-release-npm > npm-registry-client > request > extend:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > github > https-proxy-agent > agent-base > extend:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2021-03-21T05:00:08.551Z'
+    - onchange > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2021-03-21T05:00:08.551Z'
+  'npm:hoek:20180212':
+    - semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > hawk > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/last-release-npm > npm-registry-client > request > hawk > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > hawk > boom > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/last-release-npm > npm-registry-client > request > hawk > boom > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > hawk > sntp > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/last-release-npm > npm-registry-client > request > hawk > sntp > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - onchange > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/last-release-npm > npm-registry-client > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - onchange > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - onchange > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+    - onchange > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-03-21T05:00:08.551Z'
+  SNYK-JS-LODASH-567746:
+    - semantic-release > lodash:
+        patched: '2021-03-21T05:00:08.551Z'
+    - commitizen > inquirer > lodash:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > combine-lists > lodash:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/condition-travis > travis-deploy-once > request-promise > request-promise-core > lodash:
+        patched: '2021-03-21T05:00:08.551Z'
+  'npm:mime:20170907':
+    - karma > mime:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma-webpack > webpack-dev-middleware > mime:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > github > mime:
+        patched: '2021-03-21T05:00:08.551Z'
+  'npm:minimatch:20160620':
+    - commitizen > find-node-modules > findup-sync > glob > minimatch:
+        patched: '2021-03-21T05:00:08.551Z'
+  'npm:moment:20170905':
+    - firebase > jsonwebtoken > joi > moment:
+        patched: '2021-03-21T05:00:08.551Z'
+  'npm:ms:20170412':
+    - firebase > jsonwebtoken > ms:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > body-parser > debug > ms:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > connect > debug > ms:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > connect > finalhandler > debug > ms:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > github > follow-redirects > debug > ms:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > github > https-proxy-agent > debug > ms:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2021-03-21T05:00:08.551Z'
+    - onchange > chokidar > fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2021-03-21T05:00:08.551Z'
+  'npm:stringstream:20180511':
+    - semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > stringstream:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/last-release-npm > npm-registry-client > request > stringstream:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2021-03-21T05:00:08.551Z'
+    - onchange > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2021-03-21T05:00:08.551Z'
+  'npm:tough-cookie:20170905':
+    - semantic-release > @semantic-release/condition-travis > travis-deploy-once > request > tough-cookie:
+        patched: '2021-03-21T05:00:08.551Z'
+    - semantic-release > @semantic-release/last-release-npm > npm-registry-client > request > tough-cookie:
+        patched: '2021-03-21T05:00:08.551Z'
+    - karma > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2021-03-21T05:00:08.551Z'
+    - onchange > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2021-03-21T05:00:08.551Z'
