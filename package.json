@@ -84,10 +84,10 @@
     "semantic-release": "^6.3.2",
     "source-map-loader": "0.1.5",
     "ts-helpers": "1.1.2",
-    "tslint": "^4.3.0",
+    "tslint": "^5.0.0",
     "tslint-loader": "3.3.0",
     "typescript": "~2.3.3",
-    "webpack": "2.1.0-beta.27",
+    "webpack": "4.0.0",
     "zone.js": "0.8.11"
   },
   "config": {
