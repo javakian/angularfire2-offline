@@ -13,7 +13,9 @@
     "start-dev": "onchange '*.ts' 'src/**/*.ts' --initial -- npm run build-dev",
     "clean": "rimraf ./src/**/*.{d.ts,js,metadata.json,map} dist coverage bundles",
     "semantic-release": "semantic-release pre && npm run prep && npm publish dist && semantic-release post",
-    "rewrite_npm_package": "node tools/rewrite-published-package.js"
+    "rewrite_npm_package": "node tools/rewrite-published-package.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -41,7 +43,8 @@
   "homepage": "https://github.com/adriancarriger/angularfire2-offline",
   "dependencies": {
     "json-stringify-safe": "^5.0.1",
-    "localforage": "1.5.0"
+    "localforage": "1.5.0",
+    "@snyk/protect": "latest"
   },
   "peerDependencies": {
     "@angular/core": "^4.1.3",
@@ -87,7 +90,7 @@
     "tslint": "^4.3.0",
     "tslint-loader": "3.3.0",
     "typescript": "~2.3.3",
-    "webpack": "2.1.0-beta.27",
+    "webpack": "2.2.0",
     "zone.js": "0.8.11"
   },
   "config": {
@@ -97,5 +100,6 @@
   },
   "publishConfig": {
     "tag": "next"
-  }
+  },
+  "snyk": true
 }
